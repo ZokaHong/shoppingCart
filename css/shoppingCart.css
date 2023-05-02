@@ -1,0 +1,34 @@
+.container {
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+
+.row {
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#itemIcon {
+    width: 80px
+}
+
+.btn-success {
+    width: 75%;
+}
+
+@media (max-width: 992px) {
+    .btn-success {
+        width: 85%;
+    }
+} 
+@media (max-width: 768px) {
+    .btn-success {
+        width: 90%;
+    }
+} 
+@media (max-width: 480px){
+    .btn-success {
+        width: 100%;
+    }
+}
